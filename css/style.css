@@ -1,0 +1,149 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;   
+}
+
+a {
+    cursor: pointer;
+    text-decoration: none;
+}
+
+li {
+    text-decoration: none;
+}
+
+input {
+    outline: none;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"],
+textarea,
+select {
+    border: 1px solid #ccc;
+    padding: 0 5px;
+    outline: none;
+    max-width: 100%;
+    display: block;
+    background: #fff;
+}
+    
+button,
+input[type="submit"],
+input[type="reset"],
+input[type="button"] {	
+    text-decoration: none;
+    text-transform: none;
+    cursor: pointer; 
+    border: none;
+}
+
+textarea {
+    min-height: 60px;
+    resize: none;
+    overflow: auto; 
+}
+
+.btn {
+    cursor: pointer;
+}
+
+.limit {
+	margin: 0 auto;
+	max-width: 1230px;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+/**** IMG /practics/site/wp-content/themes/your-clean-template-3/img/bg1.jpg
+.bg {
+    background-image: url(../img/dove.png);
+    background-image: url(img/dove.png);
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+    background-position: top center;
+}
+*/
+
+/**** FONT AWESOME 
+
+i {font-size: 18px;}
+
+.square::before {
+	display: block;
+	position: absolute;
+	content: "\f176";
+	font-size: 12px;
+	font-family: "Font Awesome 6 Free";
+	font-weight: 900;
+}
+*/
+
+/**** SCROLL 
+    .container1 {
+        width: 250px;
+        height: 250px;
+        overflow-y: scroll;
+        overflow-x: hidden;
+        scrollbar-color: #94979d #424c56;    
+        scrollbar-width: thin;
+    }
+
+    .container1::-webkit-scrollbar {
+        width: 5px;
+        background-color: transparent;
+    }
+
+    .container1::-webkit-scrollbar-thumb {
+        background-color: #ccc;
+        border-radius: 3px;
+    }
+
+    .container1::-webkit-scrollbar-track {
+        background-color: transparent;
+    }
+*/
+
+/* CLOSE 
+.close {
+    position: absolute;
+    font-size: 30px;
+    right: 10px;
+    cursor: pointer;
+    color: rgba(0,0,0,1);
+    transition: 0.3s;
+    display: block;
+}
+
+.close:hover {
+    opacity: 0.9;
+}
+*/
+
+@media (max-width: 991px) {
+	
+}
+
+@media (max-width: 759px) {
+	
+}
+
+@media (max-width: 479px) {
+	
+}
+
+/* ../fonts/ */
+@font-face {
+	font-family: 'Roboto';
+	src: url('fonts/Roboto-Light.eot');
+	src: url('fonts/Roboto-Light.eot?#iefix') format('embedded-opentype'),
+			url('fonts/Roboto-Light.svg#Roboto-Light') format('svg'),
+			url('fonts/Roboto-Light.ttf') format('truetype'),
+			url('fonts/Roboto-Light.woff') format('woff'),
+			url('fonts/Roboto-Light.woff2') format('woff2');
+	font-weight: 300;
+	font-style: normal;
+}
+
